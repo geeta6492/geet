@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+ 
+ 
+ 
+{% block title %} Login {% endblock %}
+ 
+{% block body %}
+ 
+<h1>Login Here</h1>
+
+<p>Please login using your valid credentials</p>
+ 
+<form action="{% url 'login' %}" method="post" novalidate >
+ 
+    {% csrf_token %}
+ 
+ 
+     {{form.as_p}}
+ 
+    <input type="submit" value="Login"/>
+ 
+</form>
+ 
+ 
+<ul>
+ 
+
+
+
+</ul>
+ 
+ 
+{% endblock %}

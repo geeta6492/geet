@@ -1,0 +1,12 @@
+[packages]
+Django==1.9
+django-crispy-forms==1.6.0
+django-markdown-deux==1.0.5
+psycopg2==2.8.6
+django-pagedown==0.1.1
+social-auth-app-django==4.0.0
+markdown2==2.3.1
+Pillow==3.1.0
+
+[requires]
+python_version = "3.8"
